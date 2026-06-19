@@ -1,0 +1,28 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs
+*.csv
+!datasets/sample/*.csv
+screening_results.csv
+
+# API Keys — never commit these!
+*.key
+secrets.json
